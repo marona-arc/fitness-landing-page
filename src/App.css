@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.app {
+  font-family: 'Inter', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  --bg: #0f0f0f;
+  --bg-card: #1a1a1a;
+  --text: #ffffff;
+  --text-muted: #aaaaaa;
+  --accent: #e94560;
+  --border: #2a2a2a;
+}
+
+.light {
+  --bg: #f9f9f9;
+  --bg-card: #ffffff;
+  --text: #111111;
+  --text-muted: #555555;
+  --accent: #e94560;
+  --border: #e0e0e0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  width: 100%;
+}
